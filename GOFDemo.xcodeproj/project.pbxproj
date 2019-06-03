@@ -22,6 +22,18 @@
 		C383EEFD2248D3EC003A3C30 /* Load.m in Sources */ = {isa = PBXBuildFile; fileRef = C383EEFC2248D3EC003A3C30 /* Load.m */; };
 		C383EF002248D73B003A3C30 /* MotorVehicleLane.m in Sources */ = {isa = PBXBuildFile; fileRef = C383EEFF2248D73B003A3C30 /* MotorVehicleLane.m */; };
 		C383EF032248D916003A3C30 /* NonMotorVehicleLane.m in Sources */ = {isa = PBXBuildFile; fileRef = C383EF022248D916003A3C30 /* NonMotorVehicleLane.m */; };
+		C3B8953D229E6A7600DFAF98 /* AdapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B8953C229E6A7600DFAF98 /* AdapterViewController.m */; };
+		C3B89544229FC27000DFAF98 /* AdapterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B89543229FC27000DFAF98 /* AdapterTableViewCell.m */; };
+		C3B89548229FC6D200DFAF98 /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B89547229FC6D200DFAF98 /* CellModel.m */; };
+		C3B8954B229FD1ED00DFAF98 /* NewAdapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B8954A229FD1ED00DFAF98 /* NewAdapterViewController.m */; };
+		C3B8954E229FD27700DFAF98 /* NewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B8954D229FD27700DFAF98 /* NewCellModel.m */; };
+		C3B89552229FDCFF00DFAF98 /* RootAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B89551229FDCFF00DFAF98 /* RootAdapter.m */; };
+		C3B89558229FE1F000DFAF98 /* NewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B89557229FE1F000DFAF98 /* NewAdapter.m */; };
+		C3B8955B229FE27000DFAF98 /* OldAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B8955A229FE27000DFAF98 /* OldAdapter.m */; };
+		C3B8956022A104AE00DFAF98 /* DecoratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B8955F22A104AE00DFAF98 /* DecoratorViewController.m */; };
+		C3B8956322A10FAE00DFAF98 /* PancakeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B8956222A10FAE00DFAF98 /* PancakeModel.m */; };
+		C3B8956622A10FCC00DFAF98 /* EggModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B8956522A10FCC00DFAF98 /* EggModel.m */; };
+		C3B8956922A10FF800DFAF98 /* HamModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B8956822A10FF800DFAF98 /* HamModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +84,30 @@
 		C383EEFF2248D73B003A3C30 /* MotorVehicleLane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MotorVehicleLane.m; sourceTree = "<group>"; };
 		C383EF012248D916003A3C30 /* NonMotorVehicleLane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NonMotorVehicleLane.h; sourceTree = "<group>"; };
 		C383EF022248D916003A3C30 /* NonMotorVehicleLane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NonMotorVehicleLane.m; sourceTree = "<group>"; };
+		C3B8953B229E6A7600DFAF98 /* AdapterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdapterViewController.h; sourceTree = "<group>"; };
+		C3B8953C229E6A7600DFAF98 /* AdapterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdapterViewController.m; sourceTree = "<group>"; };
+		C3B89542229FC27000DFAF98 /* AdapterTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdapterTableViewCell.h; sourceTree = "<group>"; };
+		C3B89543229FC27000DFAF98 /* AdapterTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdapterTableViewCell.m; sourceTree = "<group>"; };
+		C3B89546229FC6D200DFAF98 /* CellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
+		C3B89547229FC6D200DFAF98 /* CellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
+		C3B89549229FD1ED00DFAF98 /* NewAdapterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewAdapterViewController.h; sourceTree = "<group>"; };
+		C3B8954A229FD1ED00DFAF98 /* NewAdapterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewAdapterViewController.m; sourceTree = "<group>"; };
+		C3B8954C229FD27700DFAF98 /* NewCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewCellModel.h; sourceTree = "<group>"; };
+		C3B8954D229FD27700DFAF98 /* NewCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewCellModel.m; sourceTree = "<group>"; };
+		C3B89550229FDCFF00DFAF98 /* RootAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootAdapter.h; sourceTree = "<group>"; };
+		C3B89551229FDCFF00DFAF98 /* RootAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootAdapter.m; sourceTree = "<group>"; };
+		C3B89556229FE1F000DFAF98 /* NewAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewAdapter.h; sourceTree = "<group>"; };
+		C3B89557229FE1F000DFAF98 /* NewAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewAdapter.m; sourceTree = "<group>"; };
+		C3B89559229FE27000DFAF98 /* OldAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OldAdapter.h; sourceTree = "<group>"; };
+		C3B8955A229FE27000DFAF98 /* OldAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OldAdapter.m; sourceTree = "<group>"; };
+		C3B8955E22A104AE00DFAF98 /* DecoratorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecoratorViewController.h; sourceTree = "<group>"; };
+		C3B8955F22A104AE00DFAF98 /* DecoratorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecoratorViewController.m; sourceTree = "<group>"; };
+		C3B8956122A10FAE00DFAF98 /* PancakeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PancakeModel.h; sourceTree = "<group>"; };
+		C3B8956222A10FAE00DFAF98 /* PancakeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PancakeModel.m; sourceTree = "<group>"; };
+		C3B8956422A10FCC00DFAF98 /* EggModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EggModel.h; sourceTree = "<group>"; };
+		C3B8956522A10FCC00DFAF98 /* EggModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EggModel.m; sourceTree = "<group>"; };
+		C3B8956722A10FF800DFAF98 /* HamModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HamModel.h; sourceTree = "<group>"; };
+		C3B8956822A10FF800DFAF98 /* HamModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HamModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +158,8 @@
 		C383EEB52248CAB4003A3C30 /* GOFDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C3B8955D22A1016100DFAF98 /* Decorator */,
+				C3B8953A229E6A5100DFAF98 /* Adapter */,
 				C383EEE82248D07D003A3C30 /* Bridge */,
 				C383EEB62248CAB4003A3C30 /* AppDelegate.h */,
 				C383EEB72248CAB4003A3C30 /* AppDelegate.m */,
@@ -197,6 +235,76 @@
 				C383EEED2248D13E003A3C30 /* BridgeViewController.m */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C3B8953A229E6A5100DFAF98 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				C3B8954F229FDCE600DFAF98 /* Adapter */,
+				C3B89545229FC6BC00DFAF98 /* Models */,
+				C3B89541229FC23200DFAF98 /* Views */,
+				C3B8953B229E6A7600DFAF98 /* AdapterViewController.h */,
+				C3B8953C229E6A7600DFAF98 /* AdapterViewController.m */,
+				C3B89549229FD1ED00DFAF98 /* NewAdapterViewController.h */,
+				C3B8954A229FD1ED00DFAF98 /* NewAdapterViewController.m */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		C3B89541229FC23200DFAF98 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C3B89542229FC27000DFAF98 /* AdapterTableViewCell.h */,
+				C3B89543229FC27000DFAF98 /* AdapterTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C3B89545229FC6BC00DFAF98 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C3B89546229FC6D200DFAF98 /* CellModel.h */,
+				C3B89547229FC6D200DFAF98 /* CellModel.m */,
+				C3B8954C229FD27700DFAF98 /* NewCellModel.h */,
+				C3B8954D229FD27700DFAF98 /* NewCellModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C3B8954F229FDCE600DFAF98 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				C3B89550229FDCFF00DFAF98 /* RootAdapter.h */,
+				C3B89551229FDCFF00DFAF98 /* RootAdapter.m */,
+				C3B89556229FE1F000DFAF98 /* NewAdapter.h */,
+				C3B89557229FE1F000DFAF98 /* NewAdapter.m */,
+				C3B89559229FE27000DFAF98 /* OldAdapter.h */,
+				C3B8955A229FE27000DFAF98 /* OldAdapter.m */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		C3B8955D22A1016100DFAF98 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				C3B8956A22A1100800DFAF98 /* Model */,
+				C3B8955E22A104AE00DFAF98 /* DecoratorViewController.h */,
+				C3B8955F22A104AE00DFAF98 /* DecoratorViewController.m */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		C3B8956A22A1100800DFAF98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3B8956122A10FAE00DFAF98 /* PancakeModel.h */,
+				C3B8956222A10FAE00DFAF98 /* PancakeModel.m */,
+				C3B8956422A10FCC00DFAF98 /* EggModel.h */,
+				C3B8956522A10FCC00DFAF98 /* EggModel.m */,
+				C3B8956722A10FF800DFAF98 /* HamModel.h */,
+				C3B8956822A10FF800DFAF98 /* HamModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,13 +438,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				C383EEF72248D355003A3C30 /* Car.m in Sources */,
+				C3B8955B229FE27000DFAF98 /* OldAdapter.m in Sources */,
+				C3B89548229FC6D200DFAF98 /* CellModel.m in Sources */,
+				C3B89558229FE1F000DFAF98 /* NewAdapter.m in Sources */,
+				C3B8954E229FD27700DFAF98 /* NewCellModel.m in Sources */,
+				C3B89544229FC27000DFAF98 /* AdapterTableViewCell.m in Sources */,
+				C3B8954B229FD1ED00DFAF98 /* NewAdapterViewController.m in Sources */,
+				C3B8953D229E6A7600DFAF98 /* AdapterViewController.m in Sources */,
+				C3B8956922A10FF800DFAF98 /* HamModel.m in Sources */,
+				C3B8956022A104AE00DFAF98 /* DecoratorViewController.m in Sources */,
 				C383EF002248D73B003A3C30 /* MotorVehicleLane.m in Sources */,
 				C383EF032248D916003A3C30 /* NonMotorVehicleLane.m in Sources */,
 				C383EEFD2248D3EC003A3C30 /* Load.m in Sources */,
 				C383EEFA2248D3B1003A3C30 /* Bicycle.m in Sources */,
+				C3B8956322A10FAE00DFAF98 /* PancakeModel.m in Sources */,
+				C3B8956622A10FCC00DFAF98 /* EggModel.m in Sources */,
 				C383EEBB2248CAB4003A3C30 /* ViewController.m in Sources */,
 				C383EEEE2248D13E003A3C30 /* BridgeViewController.m in Sources */,
 				C383EEF42248D341003A3C30 /* Transport.m in Sources */,
+				C3B89552229FDCFF00DFAF98 /* RootAdapter.m in Sources */,
 				C383EEC62248CAB5003A3C30 /* main.m in Sources */,
 				C383EEB82248CAB4003A3C30 /* AppDelegate.m in Sources */,
 			);

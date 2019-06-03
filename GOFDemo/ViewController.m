@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "BridgeViewController.h"
+#import "AdapterViewController.h"
+#import "DecoratorViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -20,7 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _listArr = @[@"桥接",@""];
+    _listArr = @[@"桥接",@"适配器",@"装饰"];
     [self.view addSubview:self.tableView];
 }
 
@@ -34,6 +36,17 @@
 }
 
 #pragma mark - UITableViewDelegate
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
+
+- (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return _listArr.count;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 50.0;
+}
 
 - (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
     static NSString *reuse = @"tableViewCell";
@@ -45,18 +58,16 @@
     return cell;
 }
 
-- (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 1;
-}
-
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 50.0;
-}
-
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (indexPath.row == 0) {
         BridgeViewController *viewController = [[BridgeViewController alloc]init];
+        [self.navigationController pushViewController:viewController animated:YES];
+    } else if (indexPath.row == 1) {
+        AdapterViewController *viewController = [[AdapterViewController alloc]init];
+        [self.navigationController pushViewController:viewController animated:YES];
+    } else if (indexPath.row == 2) {
+        DecoratorViewController *viewController = [[DecoratorViewController alloc]init];
         [self.navigationController pushViewController:viewController animated:YES];
     }
 }
