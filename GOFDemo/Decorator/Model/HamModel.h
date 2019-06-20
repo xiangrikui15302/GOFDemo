@@ -7,11 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DecoratorProtocol.h"
 
 // 火腿Model
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HamModel : NSObject
+@interface HamModel : NSObject<DecoratorProtocol>
+
+@property (strong, nonatomic)id<CakeProtocol> cake;
+
+- (instancetype)initWithCake:(id<CakeProtocol>) cake;
 
 @end
 

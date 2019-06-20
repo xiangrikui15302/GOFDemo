@@ -108,6 +108,7 @@
 		C3B8956522A10FCC00DFAF98 /* EggModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EggModel.m; sourceTree = "<group>"; };
 		C3B8956722A10FF800DFAF98 /* HamModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HamModel.h; sourceTree = "<group>"; };
 		C3B8956822A10FF800DFAF98 /* HamModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HamModel.m; sourceTree = "<group>"; };
+		C3B895D822BB301000DFAF98 /* DecoratorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecoratorProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,6 +304,7 @@
 				C3B8956522A10FCC00DFAF98 /* EggModel.m */,
 				C3B8956722A10FF800DFAF98 /* HamModel.h */,
 				C3B8956822A10FF800DFAF98 /* HamModel.m */,
+				C3B895D822BB301000DFAF98 /* DecoratorProtocol.h */,
 			);
 			path = Model;
 			sourceTree = "<group>";

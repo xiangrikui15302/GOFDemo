@@ -7,11 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "DecoratorProtocol.h"
 // 鸡蛋
 NS_ASSUME_NONNULL_BEGIN
 
-@interface EggModel : NSObject
+@interface EggModel : NSObject<DecoratorProtocol>
+
+@property (strong, nonatomic)id<CakeProtocol> cake;
+
+- (instancetype)initWithCake:(id<CakeProtocol>) cake;
 
 @end
 

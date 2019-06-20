@@ -7,10 +7,12 @@
 //
 
 #import "DecoratorViewController.h"
+#import "PancakeModel.h"
+#import "EggModel.h"
+#import "HamModel.h"
 
 @interface DecoratorViewController ()
 
-@property (nonatomic, strong)UILabel *label;
 
 @end
 
@@ -19,24 +21,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    [self.view addSubview:self.label];
+    [self calAllPrice];
     
 }
 
 #pragma mark - Private
 -(void)calAllPrice {
+     id<CakeProtocol> panCake = [[PancakeModel alloc]init];
+    NSLog(@"name: %@ \n cost: %f \n", [panCake getName], [panCake cost]);
     
+    // 加蛋
+    panCake = [[EggModel alloc]initWithCake:panCake];
+    NSLog(@"name: %@ \n cost: %f \n", [panCake getName], [panCake cost]);
+    
+    // 加蛋加火腿
+    panCake = [[HamModel alloc]initWithCake:panCake];
+    NSLog(@"name: %@ \n cost: %f \n", [panCake getName], [panCake cost]);
 }
 
-#pragma mark - LazyLoad
--(UILabel *)label {
-    if (!_label) {
-        _label = [[UILabel alloc]initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 80)];
-        _label.textColor = [UIColor redColor];
-        _label.font = [UIFont systemFontOfSize:15.0];
-        _label.textAlignment = NSTextAlignmentCenter;
-    }
-    return _label;
-}
+
 
 @end

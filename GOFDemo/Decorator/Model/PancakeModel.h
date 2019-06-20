@@ -8,15 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
-// 煎饼
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol DecoratorProtocol <NSObject>
+@protocol CakeProtocol <NSObject>
 
--(CGFloat)cost;
+-(double)cost;
+- (NSString *)getName;
 
 @end
-@interface PancakeModel : NSObject
+
+// 一个被装饰者煎饼对象，包含基本价格和名称
+@interface PancakeModel : NSObject<CakeProtocol>
 
 
 
