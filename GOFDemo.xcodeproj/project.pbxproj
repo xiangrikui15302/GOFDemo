@@ -34,6 +34,12 @@
 		C3B8956322A10FAE00DFAF98 /* PancakeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B8956222A10FAE00DFAF98 /* PancakeModel.m */; };
 		C3B8956622A10FCC00DFAF98 /* EggModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B8956522A10FCC00DFAF98 /* EggModel.m */; };
 		C3B8956922A10FF800DFAF98 /* HamModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B8956822A10FF800DFAF98 /* HamModel.m */; };
+		C3B895E022BB53A000DFAF98 /* BuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B895DF22BB53A000DFAF98 /* BuilderViewController.m */; };
+		C3B895E322BB53EC00DFAF98 /* PersonDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B895E222BB53EC00DFAF98 /* PersonDirector.m */; };
+		C3B895E922BB54F200DFAF98 /* PersonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B895E822BB54F200DFAF98 /* PersonBuilder.m */; };
+		C3B895EC22BB550800DFAF98 /* PersonFatBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B895EB22BB550800DFAF98 /* PersonFatBuilder.m */; };
+		C3B895EF22BB551700DFAF98 /* PersonThinBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B895EE22BB551700DFAF98 /* PersonThinBuilder.m */; };
+		C3BF481E22BCFBA00073E5BB /* PersonView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BF481D22BCFBA00073E5BB /* PersonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +115,18 @@
 		C3B8956722A10FF800DFAF98 /* HamModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HamModel.h; sourceTree = "<group>"; };
 		C3B8956822A10FF800DFAF98 /* HamModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HamModel.m; sourceTree = "<group>"; };
 		C3B895D822BB301000DFAF98 /* DecoratorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecoratorProtocol.h; sourceTree = "<group>"; };
+		C3B895DE22BB53A000DFAF98 /* BuilderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuilderViewController.h; sourceTree = "<group>"; };
+		C3B895DF22BB53A000DFAF98 /* BuilderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuilderViewController.m; sourceTree = "<group>"; };
+		C3B895E122BB53EC00DFAF98 /* PersonDirector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonDirector.h; sourceTree = "<group>"; };
+		C3B895E222BB53EC00DFAF98 /* PersonDirector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonDirector.m; sourceTree = "<group>"; };
+		C3B895E722BB54F200DFAF98 /* PersonBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonBuilder.h; sourceTree = "<group>"; };
+		C3B895E822BB54F200DFAF98 /* PersonBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonBuilder.m; sourceTree = "<group>"; };
+		C3B895EA22BB550800DFAF98 /* PersonFatBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonFatBuilder.h; sourceTree = "<group>"; };
+		C3B895EB22BB550800DFAF98 /* PersonFatBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonFatBuilder.m; sourceTree = "<group>"; };
+		C3B895ED22BB551700DFAF98 /* PersonThinBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonThinBuilder.h; sourceTree = "<group>"; };
+		C3B895EE22BB551700DFAF98 /* PersonThinBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonThinBuilder.m; sourceTree = "<group>"; };
+		C3BF481C22BCFBA00073E5BB /* PersonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonView.h; sourceTree = "<group>"; };
+		C3BF481D22BCFBA00073E5BB /* PersonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +177,7 @@
 		C383EEB52248CAB4003A3C30 /* GOFDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C3B895D922BB530F00DFAF98 /* Builder */,
 				C3B8955D22A1016100DFAF98 /* Decorator */,
 				C3B8953A229E6A5100DFAF98 /* Adapter */,
 				C383EEE82248D07D003A3C30 /* Bridge */,
@@ -309,6 +328,57 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		C3B895D922BB530F00DFAF98 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				C3B895DD22BB535B00DFAF98 /* Product */,
+				C3B895DB22BB535B00DFAF98 /* Builder */,
+				C3B895DA22BB535B00DFAF98 /* Controllers */,
+				C3B895DC22BB535B00DFAF98 /* Director */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		C3B895DA22BB535B00DFAF98 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C3B895DE22BB53A000DFAF98 /* BuilderViewController.h */,
+				C3B895DF22BB53A000DFAF98 /* BuilderViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C3B895DB22BB535B00DFAF98 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				C3B895E722BB54F200DFAF98 /* PersonBuilder.h */,
+				C3B895E822BB54F200DFAF98 /* PersonBuilder.m */,
+				C3B895EA22BB550800DFAF98 /* PersonFatBuilder.h */,
+				C3B895EB22BB550800DFAF98 /* PersonFatBuilder.m */,
+				C3B895ED22BB551700DFAF98 /* PersonThinBuilder.h */,
+				C3B895EE22BB551700DFAF98 /* PersonThinBuilder.m */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		C3B895DC22BB535B00DFAF98 /* Director */ = {
+			isa = PBXGroup;
+			children = (
+				C3B895E122BB53EC00DFAF98 /* PersonDirector.h */,
+				C3B895E222BB53EC00DFAF98 /* PersonDirector.m */,
+			);
+			path = Director;
+			sourceTree = "<group>";
+		};
+		C3B895DD22BB535B00DFAF98 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				C3BF481C22BCFBA00073E5BB /* PersonView.h */,
+				C3BF481D22BCFBA00073E5BB /* PersonView.m */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -440,13 +510,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C383EEF72248D355003A3C30 /* Car.m in Sources */,
+				C3BF481E22BCFBA00073E5BB /* PersonView.m in Sources */,
 				C3B8955B229FE27000DFAF98 /* OldAdapter.m in Sources */,
 				C3B89548229FC6D200DFAF98 /* CellModel.m in Sources */,
 				C3B89558229FE1F000DFAF98 /* NewAdapter.m in Sources */,
 				C3B8954E229FD27700DFAF98 /* NewCellModel.m in Sources */,
+				C3B895E022BB53A000DFAF98 /* BuilderViewController.m in Sources */,
+				C3B895E922BB54F200DFAF98 /* PersonBuilder.m in Sources */,
 				C3B89544229FC27000DFAF98 /* AdapterTableViewCell.m in Sources */,
 				C3B8954B229FD1ED00DFAF98 /* NewAdapterViewController.m in Sources */,
 				C3B8953D229E6A7600DFAF98 /* AdapterViewController.m in Sources */,
+				C3B895EC22BB550800DFAF98 /* PersonFatBuilder.m in Sources */,
+				C3B895EF22BB551700DFAF98 /* PersonThinBuilder.m in Sources */,
 				C3B8956922A10FF800DFAF98 /* HamModel.m in Sources */,
 				C3B8956022A104AE00DFAF98 /* DecoratorViewController.m in Sources */,
 				C383EF002248D73B003A3C30 /* MotorVehicleLane.m in Sources */,
@@ -460,6 +535,7 @@
 				C383EEF42248D341003A3C30 /* Transport.m in Sources */,
 				C3B89552229FDCFF00DFAF98 /* RootAdapter.m in Sources */,
 				C383EEC62248CAB5003A3C30 /* main.m in Sources */,
+				C3B895E322BB53EC00DFAF98 /* PersonDirector.m in Sources */,
 				C383EEB82248CAB4003A3C30 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

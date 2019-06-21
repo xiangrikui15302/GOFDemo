@@ -20,8 +20,6 @@ NS_ASSUME_NONNULL_BEGIN
 // 一个被装饰者煎饼对象，包含基本价格和名称
 @interface PancakeModel : NSObject<CakeProtocol>
 
-
-
 @end
 
 NS_ASSUME_NONNULL_END
