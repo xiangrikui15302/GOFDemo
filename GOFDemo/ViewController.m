@@ -10,6 +10,7 @@
 #import "BridgeViewController.h"
 #import "AdapterViewController.h"
 #import "DecoratorViewController.h"
+#import "BuilderViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -22,7 +23,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _listArr = @[@"桥接",@"适配器",@"装饰"];
+    _listArr = @[@"桥接",@"适配器",@"装饰",@"建筑者"];
     [self.view addSubview:self.tableView];
 }
 
@@ -68,6 +69,9 @@
         [self.navigationController pushViewController:viewController animated:YES];
     } else if (indexPath.row == 2) {
         DecoratorViewController *viewController = [[DecoratorViewController alloc]init];
+        [self.navigationController pushViewController:viewController animated:YES];
+    } else if (indexPath.row == 3) {
+        BuilderViewController *viewController = [[BuilderViewController alloc]init];
         [self.navigationController pushViewController:viewController animated:YES];
     }
 }
